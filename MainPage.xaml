@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="App1_April2019.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1_April2019"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:Name="MainInputTextBox" Margin="500,100,100,0"/>
+        <Button x:Name="button" Content="Past, format, and copy" Margin="50,50,0,0" VerticalAlignment="Top" Click="PastFormatCopy"/>
+
+        <Grid Name="SearchTextBoxes">
+            <TextBox x:Name="Search1" HorizontalAlignment="Left" Margin="50,100,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Search2" HorizontalAlignment="Left" Margin="50,140,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Search3" HorizontalAlignment="Left" Margin="50,180,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Search4" HorizontalAlignment="Left" Margin="50,220,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Search5" HorizontalAlignment="Left" Margin="50,260,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Search6" HorizontalAlignment="Left" Margin="50,300,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Search7" HorizontalAlignment="Left" Margin="50,340,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Search8" HorizontalAlignment="Left" Margin="50,380,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Search9" HorizontalAlignment="Left" Margin="50,420,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Search10" HorizontalAlignment="Left" Margin="50,460,0,0" Text="" VerticalAlignment="Top"/>
+        </Grid>
+
+        <Grid Name="ReplacetextBoxes">
+            <TextBox x:Name="Replace11" HorizontalAlignment="Left" Margin="150,100,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Replace12" HorizontalAlignment="Left" Margin="150,140,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Replace13" HorizontalAlignment="Left" Margin="150,180,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Replace14" HorizontalAlignment="Left" Margin="150,220,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Replace15" HorizontalAlignment="Left" Margin="150,260,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Replace16" HorizontalAlignment="Left" Margin="150,300,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Replace17" HorizontalAlignment="Left" Margin="150,340,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Replace18" HorizontalAlignment="Left" Margin="150,380,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Replace19" HorizontalAlignment="Left" Margin="150,420,0,0" Text="" VerticalAlignment="Top"/>
+            <TextBox x:Name="Replace20" HorizontalAlignment="Left" Margin="150,460,0,0" Text="" VerticalAlignment="Top"/>
+        </Grid>
+
+    </Grid>
+</Page>
